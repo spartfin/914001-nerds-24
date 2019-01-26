@@ -5,8 +5,97 @@
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
-
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="img/index-logo.svg" alt="Логотип «Нёрдс»">
+        </a>
+        <ul class="site-navigation">
+          <li><a href="studio.html">Студия</a></li>
+          <li><a href="customers.html">Клиенты</a></li>
+          <li><a href="shop.html">Магазин</a></li>
+          <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+        <ul class="basket-navigation">
+          <li class="basket">Корзина</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <!--Здесь будет форма-->
+      <h1 class="visually-hidden">Услуги</h1>
+      <section class="services-navigation">
+        <ul class="services">
+          <li class="websites">
+            <img src="img/websites.jpg" alt="Веб-сайты">
+            <h2>Веб-сайты</h2>
+            <p>Мир никогда не будет прежним после того как увидет ваш сайт</p>
+            <a class="buttom" href="#">Заказать</a>
+          </li>
+          <li class="applications">
+            <img src="img/application.jpg" alt="Приложения">
+            <h2>Приложения</h2>
+            <p>Покорите топ-10 приложений в Appstore и Google Play</p>
+            <a class="buttom" href="#">Заказать</a>
+          </li>
+          <li class="presentations">
+            <img src="img/presentations.jpg" alt="Презентации">
+            <h2>Презентации</h2>
+            <p>Вы даже не подозреваете, на сколько вы изумительны!</p>
+            <a class="buttom" href="#">Заказать</a>
+          </li>
+        </ul>
+      </section>
+      <section class="description">
+        <h1 class="visually-hidden">Описание услуг</h1>
+        <b>Мы маленькая, но гордая дизайн-студия из Краснодара</b>
+        <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет 
+        превыше креатива.Работаем не покладая рук, как роботы.</p>
+        <h3>Выполняем заказы на разработку:</h3>
+        <ul class="order-description">
+          <li>Веб-сайтов любой сложности</li>
+          <li>Мобильных приложений для IOS и Android</li>
+          <li>Слайд шоу и видео для корпоративных презентаций</li>
+        </ul>
+      </section>
+      <section class="advantages">
+        <h1 class="visually-hidden">Преимущества</h1>
+        <img src="img/logo-color" alt="Нёрдс цветной">
+        <h3>С 2004 года любим точность во всём</h3>
+        <ul class="advantages-list">
+          <li><span>146%</span>
+            <p>Уровень самоотдачи</p>
+          </li>
+          <li><span>100%</span>
+            <p>Соблюдение сроков</p>
+          </li>
+          <li><span>50%</span>
+            <p>Минимальная предоплата</p>
+          </li>
+        </ul>
+      </section>
+      <section class="links">
+        <h1 class="visually-hidden">Ссылки</h1>
+        <!--Ссылками тоже не очень понял, надо же вроде картинку задавать и ссылку принажатии на них-->
+        <ul class="links-list">
+          <li class="link-buttom" href="#">htmlacademy</li>
+          <li class="link-buttom" href="#">borodinski</li>
+          <li class="link-buttom" href="#">pink</li>
+          <li class="link-buttom" href="#">mishka</li>
+        </ul>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <!--Не пойму как с картой быть и "Напишите нам"-->
+      <div class="footer-social">
+        <ul>
+          <li class="social-button" href="#">Вконтакте</li>
+          <li class="social-button" href="#">Фейсбук</li>
+          <li class="social-button" href="#">Инстаграм</li>
+        </ul>
+        <b>Давайте дружить, это выгодно!</b>
+        <p>Скидка 10% для друзей из социальных сетей</p>
+      </div>
+    </footer>
   </body>
 </html>
