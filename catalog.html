@@ -19,12 +19,65 @@
         <li><a href="contacts.html">Контакты</a></li>
       </ul>
       <ul class="user-navigation">
-        <li class="basket">Корзина</li>
+        <li><a class="basket" href="basket.html">Корзина</a></li>
       </ul>
     </nav>
   </header>
   <main class="container">
     <h1>Магазин готовых шаблонов</h1>
+    <section class="filters">
+      <h2 class="visually-hidden">Фильтр товаров</h2>
+      <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+        <fieldset>
+        <legend>Стоимость:</legend>
+          <input type="range" min="0" max="15000" step="1">
+          <!--Не соображу как тут быть-->
+        </fieldset>
+        <fieldset>
+            <legend>Сетка:</legend>
+            <ul>
+              <li class="filter-option">
+                <input type="radio" name="grid" value="adaptive" id="filter-adaptive" checked>
+                <label for="filter-adaptive">Адаптивная</label>
+              </li>
+              <li class="filter-option">
+                <input type="radio" name="grid" value="fixed" id="filter-fixed">
+                <label for="filter-fixed">Фиксированная</label>
+              </li>
+              <li class="filter-option">
+                <input type="radio" name="grid" value="rubber" id="filter-rubber">
+                <label for="filter-rubber">Резиновая</label>
+              </li>
+            </ul>
+        </fieldset>
+        <fieldset>
+            <legend>Особенности:</legend>
+            <ul>
+              <li class="filter-option">
+                <input  type="checkbox" name="spider" id="filter-spider" checked>
+                <label for="filter-spider">Спайдер</label>
+              </li>
+              <li class="filter-option">
+                <input type="checkbox" name="advantage-unit" id="filter-advantage-unity">
+                <label for="filter-advantage-unity">Блок преимущества</label>
+              </li>
+              <li class="filter-option">
+                <input type="checkbox" name="news" id="filter-news" checked>
+                <label for="filter-news">Новости</label>
+              </li>
+              <li class="filter-option">
+                <input  type="checkbox" name="gallery" id="filter-gallery">
+                <label for="filter-gallery">Галерея</label>
+              </li>
+              <li class="filter-option">
+                <input type="checkbox" name="basket" id="filter-basket">
+                <label for="filter-basket">Корзина</label>
+              </li>
+            </ul>
+          </fieldset>
+          <button type="submit" class="filter-button button">Показать</button>
+      </form>
+    </section>
     <section class="templates">
       <h2 class="visually-hidden">Готовые шаблоны</h2>
       <h3>Сортировать:</h3>
@@ -84,17 +137,45 @@
     </section>
   </main>
   <footer class="main-footer">
+    <section>
+      <h2>NЁRDS DESIGN STUDIO</h2>
+      <p>191186, Санкт-Петербург,<br>
+        ул. Б. Конюшенная, д. 19/8<br>
+        тел. +7 (812) 275-75-75
+      </p>
+      <a class="button" href="#">Напишите нам</a>
+    </section>
+    <section class="write-to-us">
+      <h2>Напишите нам</h2>
+      <form class="write-to-us-form" action="https://echo.htmlacademy.ru" method="post">
+        <p class="write-to-us-item">
+          <label for="write-to-us-name">Ваше имя:</label>
+          <input id="write-to-us-name" type="text" name="name" placeholder="Имя Фамилия">
+        </p>
+        <p class="write-to-us-item">
+          <label for="write-to-us-email">Ваш e-mail:</label>
+          <input id="write-to-us-email" type="text" name="e-mail" placeholder="email@example.ru">
+        </p>
+        <p class="write-to-us-item">
+          <label for="write-to-us-text">Текст письма:</label>
+          <textarea id="write-to-us-text" name="textarea" placeholder="В свободной форме"></textarea>
+        </p>
+        <button class="button" type="submit">Отправить</button>
+      </form>
+      <button class="modal-close" type="button">Закрыть</button>
+    </section>
     <section class="address">
       <h2 class="visually-hidden">Как добраться</h2>
-      <img src="img/address-map.jpg" alt="Схема проезда">
+      <img src="img/address-map.jpg" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
     </section>
     <div class="footer-social">
       <ul>
-        <li class="social-button" href="#">Вконтакте</li>
-        <li class="social-button" href="#">Фейсбук</li>
-        <li class="social-button" href="#">Инстаграм</li>
+        <li><a class="social-button" href="#" title="Нёрдс вконтакте">Вконтакте</a></li>
+        <li><a class="social-button" href="#" title="Нёрдс в фейсбуке">Фейсбук</a></li>
+        <li><a class="social-button" href="#" title="Нёрдс в инстаграм">Инстаграм</a></li>
       </ul>
-      <!--Ребят снизу взял на заметку-->
+    </div>
+    <div>
       <b>Давайте дружить, это выгодно!</b>
       <p>Скидка 10% для друзей из социальных сетей</p>
     </div>
