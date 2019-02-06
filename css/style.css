@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+  
+    font-family: "Roboto", Times, serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: medium;
+    color: #283136;
+    text-transform: none;
+
+    background-color: #ffffff;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  .main-header {
+    line-height: 30px;
+    font-weight: medium;
+    color: #000000;
+    text-transform: uppercase;
+  
+    background-color: #eeeeee;
+  }
+
+  .site-navigation,
+  .user-navigation,
+  .services,
+  .order-description,
+  .links-list,
+  .footer-social ul {
+    list-style: none;
+  }
+
+  .site-navigation a,
+  .user-navigation a {
+  color: #000000;
+  }
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.site-navigation a:active,
+.user-navigation a:hover,
+.user-navigation a:focus,
+.user-navigation a:active {
+color: #fb565a;
+}
+
+.slider{
+    background-color: #eeeeee;   
+}
+
+.slider b {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: medium; 
+    color: #000000;
+}
+
+.button {
+    line-height: 18px;
+    font-weight: Medium;
+    color: #ffffff;
+    text-transform: uppercase;
+  
+    background-color: #fb565a;
+    border: none;
+  }
+
+.button:hover,
+.button:focus,
+.button:active {
+  background-color: #e74246;
+}
+
+.services h3 {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.applications .button {
+    background-color: #00ca74;  
+}
+
+.presentations .button {
+    background-color: #efc84a;
+}
+
+.applications .button:hover,
+.applications .button:focus,
+.applications .button:active {
+    background-color: #00bc6c;
+}
+
+.presentations .button:hover,
+.presentations .button:focus,
+.presentations .button:active {
+    background-color: #eab534;
+}
+
+.description b {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: bold;
+    color: #000000;   
+}
+
+.description h3 {
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.advantages-interest { /*Вот здесь не пойму как сместить проценты ниже*/
+    font-size: 45px;
+    line-height: 10px;
+    font-weight: bold;
+    color: #000000;;
+}
+
+.links-list a:hover,
+.links-list a:focus,
+.links-list a:active {
+/*Здесь не понятно*/
+}
+
+.address-studio h2 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #000000;;  
+}
+
+.address-studio p {
+    line-height: 18px;
+    font-weight: bold;
+    color: #666666;   
+}
+
+.write-to-us h2 {
+    font-size: 45px;
+    line-height: 45px;
+    font-weight: medium;
+    color: #000000;   
+}
+
+.write-to-us p {
+    line-height: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.write-to-us-form input,
+.write-to-us-form textarea {
+  font-weight: medium;
+  color: #d7dcde;
+
+  border: 2px solid #d7dcde;
+}
+
+.write-to-us-form input:hover,
+.write-to-us-form input:focus,
+.write-to-us-form input:active,
+.write-to-us-form input:invalid {
+    color: #b4b9bb;
+
+    border: 2px solid #b4b9bb;  /*Я не понимаю, цвета тоже по порядку просто надо или как*/
+}
+
+.footer-social a {
+    color: #000000;
+}
+
+.footer-social a:hover,
+.footer-social a:focus,
+.footer-social a:active {
+color: #e74246;
+}
+
+.discount b {
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #000000;    
+}
+
+.discount p {
+    line-height: 22px;
+    font-weight: medium;
+    color: #444444;   
+}
+
+.container h1 {
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: medium;
+    color: #000000;   
+}
+
+.filter fieldset {
+    border: none;
+  }
+
+  .filter legend {
+    font-size: 30px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #000000;
+
+  }
+
+  .filters ul {
+    list-style: none;
+    line-height: 20px;
+  }
+
+  .filters input:hover + label,
+  .filters input:focus + label { /* Здесь не работает и всё, не пойму где ошибся*/
+  color: #4d4d4d;
+}
+
+.filters input:disabled + label {
+  color: #ededed;
+}
+
+.filter-button {
+    line-height: 18px;
+    font-weight: medium;
+    color: #000000; 
+
+    background-color: #eeeeee;
+}
+
+.filter-button:hover,
+.filter-button:focus,
+.filter-button:active {
+    background-color: #dfdfdf  
+}
+
+.templates h3 {
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: bold;
+        color: #000000;   
+}
+
+ul h3 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #000000;    
+}
+
+.filter {
+    list-style: none;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: medium;
+    color: #000000; 
+}
+
+.filter a {
+    color: #000000;
+}
+
+.filter a:hover,
+.filter a:focus,
+.filter a:active {
+    color: #8d8d8d
+}
+
+.templates-list {
+    list-style: none; 
+    text-align: center;
+}
+.templates div {
+    background-color: #eeeeee;
+}
+
+.pagination-list {
+    list-style: none;
+    line-height: 18px;
+    font-weight: medium;
+    color: #000000; 
+}
+
+.pagination-list a { /*Запутался в край, здесь в кнопки чтоль надо переделывать*/
+
+}
