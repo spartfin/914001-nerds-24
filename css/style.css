@@ -96,7 +96,8 @@ a {
 	background-color: #efc84a;
 }
 
-.applications .button:hover, .applications .button:focus, {
+.applications .button:hover,
+.applications .button:focus {
 	background-color: #00bc6c;
 }
 
