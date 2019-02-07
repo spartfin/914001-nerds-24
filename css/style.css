@@ -1,292 +1,352 @@
 body {
-    margin: 0;
-  
-    font-family: "Roboto", Times, serif;
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: medium;
-    color: #283136;
-    text-transform: none;
+	margin: 0;
+	font-family: "Roboto", Times, serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: medium;
+	color: #283136;
+	text-transform: none;
+	background-color: #ffffff;
+}
 
-    background-color: #ffffff;
-  }
-  a {
-    text-decoration: none;
-  }
+a {
+	text-decoration: none;
+}
 
-  .main-header {
-    line-height: 30px;
-    font-weight: medium;
-    color: #000000;
-    text-transform: uppercase;
-  
-    background-color: #eeeeee;
-  }
+.main-header {
+	line-height: 30px;
+	font-weight: medium;
+	color: #000000;
+	text-transform: uppercase;
+	background-color: #eeeeee;
+}
 
-  .site-navigation,
-  .user-navigation,
-  .services,
-  .order-description,
-  .links-list,
-  .footer-social ul {
-    list-style: none;
-  }
+.site-navigation,
+.user-navigation,
+.services,
+.order-description,
+.links-list,
+.footer-social ul,
+.pagination-list {
+	list-style: none;
+}
 
-  .site-navigation a,
-  .user-navigation a {
-  color: #000000;
-  }
+.site-navigation a,
+.user-navigation a {
+	color: #000000;
+}
 
 .site-navigation a:hover,
 .site-navigation a:focus,
-.site-navigation a:active,
 .user-navigation a:hover,
-.user-navigation a:focus,
-.user-navigation a:active {
-color: #fb565a;
+.user-navigation a:focus {
+	color: #fb565a;
 }
 
-.slider{
-    background-color: #eeeeee;   
+.site-navigation a:active,
+.user-navigation a:active {
+	color: #bdbdbd;
+}
+
+.slider {
+	background-color: #eeeeee;
 }
 
 .slider b {
-    font-size: 55px;
-    line-height: 55px;
-    font-weight: medium; 
-    color: #000000;
+	font-size: 55px;
+	line-height: 55px;
+	font-weight: medium;
+	color: #000000;
 }
 
 .button {
-    line-height: 18px;
-    font-weight: Medium;
-    color: #ffffff;
-    text-transform: uppercase;
-  
-    background-color: #fb565a;
-    border: none;
-  }
-
+	line-height: 18px;
+	font-weight: Medium;
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: #fb565a;
+	border: none;
+}
 .button:hover,
-.button:focus,
+.button:focus {
+	background-color: #e74246;
+}
+
 .button:active {
-  background-color: #e74246;
+	background-color: #d7373b;
+}
+
+.button span:active {
+	opacity: 0.3;
 }
 
 .services h3 {
-    font-size: 24px;
-    line-height: 30px;
-    font-weight: bold;
-    color: #000000;
-    text-transform: uppercase;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #000000;
+	text-transform: uppercase;
 }
 
 .applications .button {
-    background-color: #00ca74;  
+	background-color: #00ca74;
 }
 
 .presentations .button {
-    background-color: #efc84a;
+	background-color: #efc84a;
 }
 
-.applications .button:hover,
-.applications .button:focus,
+.applications .button:hover, .applications .button:focus, {
+	background-color: #00bc6c;
+}
+
 .applications .button:active {
-    background-color: #00bc6c;
+	background-color: #00aa62;
 }
 
-.presentations .button:hover,
-.presentations .button:focus,
+.presentations .button:hover, .presentations .button:focus {
+	background-color: #eab534;
+}
+
 .presentations .button:active {
-    background-color: #eab534;
+	background-color: #e5a722;
 }
 
 .description b {
-    font-size: 45px;
-    line-height: 45px;
-    font-weight: bold;
-    color: #000000;   
+	font-size: 45px;
+	line-height: 45px;
+	font-weight: bold;
+	color: #000000;
 }
 
 .description h3 {
-    font-weight: bold;
-    color: #000000;
-    text-transform: uppercase;
+	font-weight: bold;
+	color: #000000;
+	text-transform: uppercase;
 }
 
-.advantages-interest { /*Вот здесь не пойму как сместить проценты ниже*/
-    font-size: 45px;
-    line-height: 10px;
-    font-weight: bold;
-    color: #000000;;
+.advantages-interest {
+	font-size: 45px;
+	line-height: 10px;
+	font-weight: bold;
+	color: #000000;
+	;
+}
+
+.links-list a {
+	opacity: 0.2;
 }
 
 .links-list a:hover,
-.links-list a:focus,
+.links-list a:focus {
+	opacity: 1;
+}
+
 .links-list a:active {
-/*Здесь не понятно*/
+	opacity: 0.1;
 }
 
 .address-studio h2 {
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: bold;
-    color: #000000;;  
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #000000;
+	;
 }
 
 .address-studio p {
-    line-height: 18px;
-    font-weight: bold;
-    color: #666666;   
+	line-height: 18px;
+	font-weight: bold;
+	color: #666666;
 }
 
 .write-to-us h2 {
-    font-size: 45px;
-    line-height: 45px;
-    font-weight: medium;
-    color: #000000;   
+	font-size: 45px;
+	line-height: 45px;
+	font-weight: medium;
+	color: #000000;
 }
 
 .write-to-us p {
-    line-height: 18px;
-    font-weight: bold;
-    color: #000000;
+	line-height: 18px;
+	font-weight: bold;
+	color: #000000;
 }
 
 .write-to-us-form input,
 .write-to-us-form textarea {
-  font-weight: medium;
-  color: #d7dcde;
-
-  border: 2px solid #d7dcde;
+	font-weight: medium;
+	color: #d7dcde;
+	border: 2px solid #d7dcde;
 }
 
-.write-to-us-form input:hover,
-.write-to-us-form input:focus,
-.write-to-us-form input:active,
-.write-to-us-form input:invalid {
-    color: #b4b9bb;
+.write-to-us-form input {
+	border-color: #d7dcde;
+}
 
-    border: 2px solid #b4b9bb;  /*Я не понимаю, цвета тоже по порядку просто надо или как*/
+.write-to-us-form input:hover {
+	border-color: #b4b9bb;
+}
+
+.write-to-us-form input:focus {
+	border-color: #000000;
+}
+
+.write-to-us-form input:invalid {
+	border-color: #e74246;
 }
 
 .footer-social a {
-    color: #000000;
+	color: #e1e1e1;
 }
 
 .footer-social a:hover,
-.footer-social a:focus,
+.footer-social a:focus {
+	color: #e74246;
+}
+
 .footer-social a:active {
-color: #e74246;
+	color: #d7373b
 }
 
 .discount b {
-    font-size: 36px;
-    line-height: 36px;
-    font-weight: bold;
-    color: #000000;    
+	font-size: 36px;
+	line-height: 36px;
+	font-weight: bold;
+	color: #000000;
 }
 
 .discount p {
-    line-height: 22px;
-    font-weight: medium;
-    color: #444444;   
+	line-height: 22px;
+	font-weight: medium;
+	color: #444444;
 }
 
 .container h1 {
-    font-size: 55px;
-    line-height: 55px;
-    font-weight: medium;
-    color: #000000;   
+	font-size: 55px;
+	line-height: 55px;
+	font-weight: medium;
+	color: #000000;
 }
 
-.filter fieldset {
-    border: none;
-  }
-
-  .filter legend {
-    font-size: 30px;
-    line-height: 18px;
-    font-weight: bold;
-    color: #000000;
-
-  }
-
-  .filters ul {
-    list-style: none;
-    line-height: 20px;
-  }
-
-  .filters input:hover + label,
-  .filters input:focus + label { /* Здесь не работает и всё, не пойму где ошибся*/
-  color: #4d4d4d;
+.filter-form fieldset {
+	border: none;
 }
 
-.filters input:disabled + label {
-  color: #ededed;
+.filter-form legend {
+	font-size: 30px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #000000;
+}
+
+.filters ul {
+	list-style: none;
+	line-height: 20px;
+}
+
+.filters input+label {
+	color: #b8b8b8;
+}
+
+.filters input:hover+label,
+.filters input:focus+label {
+	color: #4d4d4d;
+}
+
+.filters input:disabled+label {
+	color: #ededed;
 }
 
 .filter-button {
-    line-height: 18px;
-    font-weight: medium;
-    color: #000000; 
-
-    background-color: #eeeeee;
+	line-height: 18px;
+	font-weight: medium;
+	color: #000000;
+	background-color: #eeeeee;
 }
 
 .filter-button:hover,
-.filter-button:focus,
+.filter-button:focus {
+	background-color: #dfdfdf
+}
+
 .filter-button:active {
-    background-color: #dfdfdf  
+	background-color: #d5d5d5
 }
 
 .templates h3 {
-        font-size: 18px;
-        line-height: 18px;
-        font-weight: bold;
-        color: #000000;   
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: bold;
+	color: #000000;
 }
 
-ul h3 {
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: bold;
-    color: #000000;    
+.utemplates-list h3 {
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+	color: #000000;
 }
 
 .filter {
-    list-style: none;
-    font-size: 14px;
-    line-height: 18px;
-    font-weight: medium;
-    color: #000000; 
+	list-style: none;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: medium;
+	color: #000000;
 }
 
 .filter a {
-    color: #000000;
+	color: #cacaca;
 }
 
 .filter a:hover,
-.filter a:focus,
+.filter a:focus {
+	color: #8d8d8d
+}
+
 .filter a:active {
-    color: #8d8d8d
+	color: #000000;
 }
 
 .templates-list {
-    list-style: none; 
-    text-align: center;
+	list-style: none;
+	text-align: center;
 }
+
 .templates div {
-    background-color: #eeeeee;
+	background-color: #eeeeee;
 }
 
-.pagination-list {
-    list-style: none;
-    line-height: 18px;
-    font-weight: medium;
-    color: #000000; 
+.pagination-list a {
+	list-style: none;
+	line-height: 18px;
+	font-weight: medium;
+	color: #000000;
 }
 
-.pagination-list a { /*Запутался в край, здесь в кнопки чтоль надо переделывать*/
+.pagination-item {
+	background-color: #eeeeee
+}
 
+.pagination-item:hover,
+.pagination-item:focus {
+	background-color: #dfdfdf;
+}
+
+.pagination-item:active {
+	background-color: #d5d5d5;
+}
+
+.pagination-item-current {
+	color: #000000;
+	background-color: #ffffff;
+	border: 2px solid #dbdbdb;
+}
+
+.pagination-item-current:hover,
+.pagination-item-current:focus,
+.pagination-item-current:active {
+	color: #000000;
+	background-color: #ffffff;
 }
