@@ -3,7 +3,7 @@ body {
 	font-family: "Roboto", Times, serif;
 	font-size: 16px;
 	line-height: 24px;
-	font-weight: medium;
+	font-weight: 400;
 	color: #283136;
 	text-transform: none;
 	background-color: #ffffff;
@@ -19,7 +19,7 @@ a {
 
 .main-header {
 	line-height: 30px;
-	font-weight: medium;
+	font-weight: 400;
 	color: #000000;
 	text-transform: uppercase;
 	background-color: #eeeeee;
@@ -217,13 +217,13 @@ a {
 .slider b {
 	font-size: 55px;
 	line-height: 55px;
-	font-weight: medium;
+	font-weight: 400;
 	color: #000000;
 }
 
 .button {
 	line-height: 18px;
-	font-weight: Medium;
+	font-weight: 400;
 	color: #ffffff;
 	text-transform: uppercase;
 	background-color: #fb565a;
@@ -324,7 +324,7 @@ a {
 .write-to-us h2 {
 	font-size: 45px;
 	line-height: 45px;
-	font-weight: medium;
+	font-weight: 400;
 	color: #000000;
 }
 
@@ -336,7 +336,7 @@ a {
 
 .write-to-us-form input,
 .write-to-us-form textarea {
-	font-weight: medium;
+	font-weight: 400;
 	color: #d7dcde;
 	border: 2px solid #d7dcde;
 }
@@ -379,14 +379,14 @@ a {
 
 .discount p {
 	line-height: 22px;
-	font-weight: medium;
+	font-weight: 400;
 	color: #444444;
 }
 
 .container h1 {
 	font-size: 55px;
 	line-height: 55px;
-	font-weight: medium;
+	font-weight: 400;
 	color: #000000;
 }
 
@@ -421,7 +421,7 @@ a {
 
 .filter-button {
 	line-height: 18px;
-	font-weight: medium;
+	font-weight: 400;
 	color: #000000;
 	background-color: #eeeeee;
 }
@@ -453,7 +453,7 @@ a {
 	list-style: none;
 	font-size: 14px;
 	line-height: 18px;
-	font-weight: medium;
+	font-weight: 400;
 	color: #000000;
 }
 
@@ -481,7 +481,7 @@ a {
 .pagination-list a {
 	list-style: none;
 	line-height: 18px;
-	font-weight: medium;
+	font-weight: 400;
 	color: #000000;
 }
 
