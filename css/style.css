@@ -54,6 +54,7 @@ a {
 	flex-direction: column;
 	padding: 0px 20px;
 	margin-bottom: 80px;
+	background-color: #eeeeee;
 }
 
 .services {
@@ -208,10 +209,6 @@ a {
 
 .main-header-logo:active {
 	opacity: 0.3;
-}
-
-.slider {
-	background-color: #eeeeee;
 }
 
 .slider b {
