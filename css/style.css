@@ -1,6 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	min-width: 1200px;
 	font-family: "Roboto", Times, serif;
 	font-size: 16px;
 	line-height: 24px;
@@ -27,14 +28,17 @@ a {
 
 .main-header {
 	line-height: 30px;
-	font-weight: 400;
 	color: #000000;
 	text-transform: uppercase;
 	background-color: #eeeeee;
 }
 
 .main-navigation {
-	padding: 50px 20px 18px 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	padding: 0 20px;
+	font-weight: 500;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -46,42 +50,64 @@ a {
 }
 
 .site-navigation {
+	margin: 0;
+	padding: 0;
 	width: 440px;
 }
 
 .user-navigation {
+	margin: 0;
+	padding: 0;
 	width: 160px;
+}
+
+.content-main {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	padding: 0 20px;
 }
 
 .slider {
 	display: flex;
 	flex-direction: column;
-	padding: 0px 20px;
-	margin-bottom: 80px;
 	background-color: #eeeeee;
+}
+
+.slider p {
+	margin: 0;
 }
 
 .services {
 	display: flex;
-	padding: 0px 20px;
-	padding-bottom: 80px;
+	margin: 0;
+	padding: 0;
+	padding-top: 80px;
+	padding-bottom: 80px
+}
+
+.services h3 {
+	margin: 0;
+}
+
+.services p {
+	margin: 0;
 }
 
 .websites,
-.advantages-interest,
+.applications,
 .presentations {
 	width: 300px;
 }
 
 .websites,
-.advantages-interest {
+.applications {
 	padding-right: 100px;
 }
 
 .description {
 	display: flex;
 	justify-content: space-between;
-	padding: 0px 20px;
 	padding-bottom: 80px;
 }
 
@@ -89,8 +115,26 @@ a {
 	width: 660px;
 }
 
+.description-one h3 {
+	margin: 0;
+}
+
+.description p {
+	margin: 0;
+}
+
+.order-description {
+	margin: 0;
+	padding: 0;
+}
+
+
 .description-two {
 	width: 360px;
+}
+
+.description-two h3 {
+	margin: 0;
 }
 
 .links-list {
@@ -98,24 +142,47 @@ a {
 	justify-content: space-around;
 	align-items: center;
 	margin: 0;
-	padding: 0px 20px;
+	padding: 0;
 	padding-bottom: 80px;	
 }
 
+.content-footer {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	padding: 0 20px;	
+}
+
 .address {
-	width: auto;
+	width: 1440px;
 }
 
 .address-studio {
+	margin: 0;
 	width: 320px;
 	height: 310px;
+	
+}
 
+.address-studio h2 {
+	margin: 0;
+}
+
+.address-studio p {
+	margin: 0;
+}
+
+.write-to-us h2 {
+	margin: 0;
+}
+
+.write-to-us-form p {
+	margin: 0;
 }
 
 .footer-container {
 	display: flex;
 	align-items: center;
-	padding: 0px 20px;
 }
 
 .footer-social {
@@ -125,44 +192,87 @@ a {
 	padding-right: 140px;
 }
 
+.footer-container ul {
+	margin: 0;
+	padding: 0;
+}
+
 .discount {
 	width: 550px;
 	padding-top: 80px;
 	padding-bottom: 90px;
 }
 
+.discount p {
+	margin: 0;
+}
+
+.container-box {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	padding: 0 20px;
+}
+
 .container h1 {
 	text-align: center;
 	background-color: #eeeeee;
-	padding-top: 100px;
-	padding-bottom: 120px;
 	margin: 0;
-	margin-bottom: 60px;
-	
+	padding-top: 100px;
+	padding-bottom: 120px;	
 }
 
 .container-box {
 	display: flex;
 	justify-content: space-between;
-	padding: 0px 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	padding: 0 20px;
+	padding-top: 60px;
 }
 
 .filters {
 	width: 260px;
 }
 
+.filter-form fieldset {
+	margin: 0;
+	padding: 0;
+}
+
 .templates {
 	width: 760px;
 }
+
+.templates h3 {
+	margin: 0;
+}
+
+.filter {
+	margin: 0;
+	padding: 0;
+}
+
 .templates-list{
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	margin: 0;
 	padding: 0;
 }
 
 .templates-list div{
 	width: 360px;
+}
+
+.templates-list p {
+	margin: 0;
+}
+
+.pagination-list {
+	margin: 0;
+	padding: 0;
 }
 
 .site-navigation,
@@ -203,13 +313,13 @@ a {
 .slider b {
 	font-size: 55px;
 	line-height: 55px;
-	font-weight: 400;
+	font-weight: 500;
 	color: #000000;
 }
 
 .button {
 	line-height: 18px;
-	font-weight: 400;
+	font-weight: 500;
 	color: #ffffff;
 	text-transform: uppercase;
 	background-color: #fb565a;
@@ -262,7 +372,7 @@ a {
 .description b {
 	font-size: 45px;
 	line-height: 45px;
-	font-weight: bold;
+	font-weight: 500;
 	color: #000000;
 }
 
@@ -310,7 +420,7 @@ a {
 .write-to-us h2 {
 	font-size: 45px;
 	line-height: 45px;
-	font-weight: 400;
+	font-weight: 500;
 	color: #000000;
 }
 
@@ -372,7 +482,7 @@ a {
 .container h1 {
 	font-size: 55px;
 	line-height: 55px;
-	font-weight: 400;
+	font-weight: 500;
 	color: #000000;
 }
 
@@ -407,7 +517,7 @@ a {
 
 .filter-button {
 	line-height: 18px;
-	font-weight: 400;
+	font-weight: 500;
 	color: #000000;
 	background-color: #eeeeee;
 }
@@ -467,7 +577,7 @@ a {
 .pagination-list a {
 	list-style: none;
 	line-height: 18px;
-	font-weight: 400;
+	font-weight: 500;
 	color: #000000;
 }
 
