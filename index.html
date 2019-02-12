@@ -28,31 +28,33 @@
     </nav>
   </header>
   <main class="container">
-    <div class="content-main">
     <section class="slider">
-      <h2 class="visually-hidden">Наши преимущества</h2>
-      <div clas="slider-controls">
-        <button name="slider-button"></button>
-        <button name="slider-button"></button>
-        <button name="slider-button"></button>
-      </div>
-      <div class="slide-1">
-        <b>Долго, дорого, скрупулезно</b>
-        <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-        <a class="button" href="#">Узнать больше</a>
-      </div>
-      <div class="slide-2">
-        <b>Любим математику как никто другой</b>
-        <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
-        <a class="button" href="#">Узнать больше</a>
-      </div>
-      <div class="slide-3">
-        <b>Только ночь, только хардкор</b>
-        <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
-        <a class="button" href="#">Узнать больше</a>
+      <div class="container-box">
+        <h2 class="visually-hidden">Наши преимущества</h2>
+        <div clas="slider-controls">
+          <button name="slider-button"></button>
+          <button name="slider-button"></button>
+          <button name="slider-button"></button>
+        </div>
+        <div class="slide-1">
+          <b>Долго, дорого, скрупулезно</b>
+          <p>Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+          <a class="button" href="#">Узнать больше</a>
+        </div>
+        <div class="slide-2">
+          <b>Любим математику как никто другой</b>
+          <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+          <a class="button" href="#">Узнать больше</a>
+        </div>
+        <div class="slide-3">
+          <b>Только ночь, только хардкор</b>
+          <p>Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+          <a class="button" href="#">Узнать больше</a>
+        </div>
       </div>
     </section>
-    <section class="services-navigations">
+    <div class="container-box">
+      <section class="services-navigations">
       <h2 class="visually-hidden">Услуги</h2>
       <ul class="services">
         <li class="websites">
@@ -117,7 +119,7 @@
     </div>
   </main>
   <footer class="main-footer">
-    <div class="content-footer">
+    <div class="container-box">
     <section class="address-studio">
       <h2>NЁRDS DESIGN STUDIO</h2>
       <p>191186, Санкт-Петербург,<br>
@@ -126,30 +128,11 @@
       </p>
       <a class="button" href="#">Напишите нам</a>
     </section>
-    <section class="write-to-us">
-      <h2>Напишите нам</h2>
-      <form class="write-to-us-form" action="https://echo.htmlacademy.ru" method="post">
-        <p class="write-to-us-item">
-          <label for="write-to-us-name">Ваше имя:</label>
-          <input id="write-to-us-name" type="text" name="name" placeholder="Имя Фамилия">
-        </p>
-        <p class="write-to-us-item">
-          <label for="write-to-us-email">Ваш e-mail:</label>
-          <input id="write-to-us-email" type="text" name="e-mail" placeholder="email@example.ru">
-        </p>
-        <p class="write-to-us-item">
-          <label for="write-to-us-text">Текст письма:</label>
-          <textarea id="write-to-us-text" name="textarea" placeholder="В свободной форме"></textarea>
-        </p>
-        <button class="button" type="submit">Отправить</button>
-      </form>
-      <button class="modal-close" type="button">Закрыть</button>
-    </section>
     <section class="address">
       <h2 class="visually-hidden">Как добраться</h2>
-      <img src="img/address-map.jpg" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+      <img src="img/address-map.jpg" width=1200 height=416 alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
     </section>
-    <div class="footer-container">
+    <div class="container-box">
     <div class="footer-social">
       <ul>
         <li><a class="social-button" href="#" >Вконтакте</a></li>
@@ -164,6 +147,25 @@
     </div>
     </div>
   </footer>
+  <section class="write-to-us">
+    <h2>Напишите нам</h2>
+    <form class="write-to-us-form" action="https://echo.htmlacademy.ru" method="post">
+      <p class="write-to-us-item">
+        <label for="write-to-us-name">Ваше имя:</label>
+        <input id="write-to-us-name" type="text" name="name" placeholder="Имя Фамилия">
+      </p>
+      <p class="write-to-us-item">
+        <label for="write-to-us-email">Ваш e-mail:</label>
+        <input id="write-to-us-email" type="text" name="e-mail" placeholder="email@example.ru">
+      </p>
+      <p class="write-to-us-item">
+        <label for="write-to-us-text">Текст письма:</label>
+        <textarea id="write-to-us-text" name="textarea" placeholder="В свободной форме"></textarea>
+      </p>
+      <button class="button" type="submit">Отправить</button>
+    </form>
+    <button class="modal-close" type="button">Закрыть</button>
+  </section>
 </body>
 
 </html>

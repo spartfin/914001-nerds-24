@@ -1,3 +1,11 @@
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: content-box;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -61,7 +69,8 @@ a {
 	width: 160px;
 }
 
-.content-main {
+.content-main
+ {
 	margin-left: auto;
 	margin-right: auto;
 	width: 1200px;
@@ -146,17 +155,6 @@ a {
 	padding-bottom: 80px;	
 }
 
-.content-footer {
-	margin-left: auto;
-	margin-right: auto;
-	width: 1200px;
-	padding: 0 20px;	
-}
-
-.address {
-	width: 1440px;
-}
-
 .address-studio {
 	margin: 0;
 	width: 320px;
@@ -172,6 +170,12 @@ a {
 	margin: 0;
 }
 
+.write-to-us {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	padding: 0 20px;
+}
 .write-to-us h2 {
 	margin: 0;
 }
@@ -222,7 +226,7 @@ a {
 	padding-bottom: 120px;	
 }
 
-.container-box {
+.container-slot {
 	display: flex;
 	justify-content: space-between;
 	margin-left: auto;
