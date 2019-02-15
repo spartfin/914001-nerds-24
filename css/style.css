@@ -246,6 +246,7 @@ img {
 	position: relative;
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 30px;
 }
 
 .description-one {
@@ -308,22 +309,8 @@ img {
 	align-items: center;
 	margin: 0;
 	padding: 0;
-	padding-bottom: 80px;	
-}
-
-.address-studio {
-	margin: 0;
-	width: 320px;
-	height: 310px;
-	
-}
-
-.address-studio h2 {
-	margin: 0;
-}
-
-.address-studio p {
-	margin: 0;
+	padding-top: 14px;
+	padding-bottom: 45px;	
 }
 
 .write-to-us {
@@ -332,6 +319,7 @@ img {
 	width: 1200px;
 	padding: 0 20px;
 }
+
 .write-to-us h2 {
 	margin: 0;
 }
@@ -568,7 +556,38 @@ img {
 	opacity: 0.1;
 }
 
+.container-box {
+	position: relative;
+}
+
+.main-footer {
+	margin-top: 80px;
+}
+
+.address-studio {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	text-align: center;
+	justify-content: center;
+	top: 40px;
+	left: 140px;
+	margin: 0;
+	width: 315px;
+	height: 305px;
+	background: #ffffff;
+	z-index: 1;	
+}
+
+.address-studio .button {
+	width: 220px;
+	text-align: center;
+	margin-left: 50px;
+}
+
 .address-studio h2 {
+	margin: 0;
+	margin-bottom: 28px;
 	font-size: 18px;
 	line-height: 30px;
 	font-weight: bold;
@@ -577,6 +596,8 @@ img {
 }
 
 .address-studio p {
+	margin: 0;
+	margin-bottom: 38px;
 	line-height: 18px;
 	font-weight: bold;
 	color: #666666;
@@ -618,10 +639,6 @@ img {
 	border-color: #e74246;
 }
 
-.footer-social a {
-	color: #e1e1e1;
-}
-
 .footer-social a:hover,
 .footer-social a:focus {
 	color: #e74246;
@@ -629,6 +646,46 @@ img {
 
 .footer-social a:active {
 	color: #d7373b
+}
+
+.footer {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-social ul {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	width: 265px;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: space-around;
+	padding-right: 140px;
+}
+
+.social-button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 80px;
+	height: 80px;
+	background-color: #e1e1e1;
+	border-radius: 50%;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color: #e74246;
+}
+
+.social-button:active {
+	background-color: #d7373b;
+}
+
+.social-button:focus path {
+	fill: #e37376;
 }
 
 .discount b {
@@ -642,6 +699,7 @@ img {
 	line-height: 22px;
 	font-weight: 400;
 	color: #444444;
+	padding-top: 10px;
 }
 
 .container h1 {
