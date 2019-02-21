@@ -244,31 +244,31 @@ img {
 .websites h3::before {
 	content: "";
 	position: absolute;
+	top: 0;
+	left: 20px;
 	width: 300px;
 	height: 146px;
-	background-image: url("..img/service-1.jpg");
-	background-repeat: no-repeat;
-	background-position: 0 0;
+	background-image: url("../img/service-1.jpg");
 }
 
 .applications h3::before {
 	content: "";
 	position: absolute;
+	top: 0;
+	left: 420px;
 	width: 300px;
 	height: 146px;
-	background-image: url("..img/service-2.jpg");
-	background-repeat: no-repeat;
-	background-position: 0 0;
+	background-image: url("../img/service-2.jpg");
 }
 
 .presentations h3::before {
 	content: "";
 	position: absolute;
+	top: 0;
+	left: 820px;
 	width: 300px;
 	height: 146px;
-	background-image: url("..img/service-3.jpg");
-	background-repeat: no-repeat;
-	background-position: 0 0;
+	background-image: url("../img/service-3.jpg");
 }
 
 .description {
@@ -288,14 +288,14 @@ img {
 
 .description-right h3 {
 	margin: 0;
-	padding-bottom: 32px;
+	margin-bottom: 32px;
 }
 
 
 .description p {
 	margin: 0;
-	padding-top: 33px;
-	padding-bottom: 50px;
+	margin-top: 33px;
+	margin-bottom: 50px;
 }
 
 .order-description {
@@ -320,7 +320,7 @@ img {
 }
 
 .description-left img {
-	padding-bottom: 42px;
+	margin-bottom: 42px;
 }
 
 .description-left {
@@ -330,6 +330,20 @@ img {
 .description-left h3 {
 	margin: 0;
 	text-align: center;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 50px;
+}
+
+.advantages-interest td {
+	padding-bottom: 26px;
+	padding-right: 25px;
+	line-height: 36px;
+}
+
+.advantages-interest sup {
+	top: -15px;
+	font-size: 60%;
 }
 
 .links {
@@ -599,6 +613,14 @@ img {
 
 .main-footer {
 	margin-top: 80px;
+}
+
+.address {
+	height: 416px;
+}
+
+address img {
+	height: 100%;
 }
 
 .address-studio {
@@ -916,13 +938,6 @@ img {
   .max-price {
 	text-align: right;
   }
-
-.filter-form legend {
-	font-size: 30px;
-	line-height: 18px;
-	font-weight: bold;
-	color: #000000;
-}
 
 .filters ul {
 	list-style: none;
