@@ -675,7 +675,14 @@ img {
 }
 
 .address {
+	position: relative;
 	height: 416px;
+}
+
+.address iframe {
+	position: absolute;
+	height: 100%;
+	border: none;
 }
 
 .address img {
@@ -693,7 +700,7 @@ img {
 	width: 315px;
 	height: 305px;
 	background: #ffffff;
-	z-index: 1;	
+	z-index: 10;	
 }
 
 .address-studio .button {
