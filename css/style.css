@@ -45,7 +45,7 @@ img {
 .main-navigation {
 	margin-left: auto;
 	margin-right: auto;
-	width: 1200px;
+	width: 1160px;
 	padding: 0 20px;
 	padding-top: 50px;
 	font-weight: 500;
@@ -463,6 +463,7 @@ img {
 
 .filter-arrows {
 	list-style: none;
+	line-height: 18px;
 }
 
 .arrows {
@@ -517,7 +518,7 @@ img {
 	width: 360px;
 	height: 40px;
 	top: 0;
-	opacity: 0.12;
+	opacity: 0.12
 }
 
 .templates-list div{
@@ -529,8 +530,17 @@ img {
 }
 
 .template-description {
-	position: absolute;
+  position: absolute;
 	top: 385px;
+	visibility: hidden;
+}
+
+.template-item:hover::before {
+	opacity: 1;
+}
+
+.template-item:hover .template-description {
+	visibility: visible;
 }
 
 .template-description h3 {
@@ -699,20 +709,18 @@ img {
 	display: flex;
 	flex-direction: column;
 	position: absolute;
-	text-align: center;
 	justify-content: center;
 	top: 50px;
 	margin: 0;
-	width: 315px;
-	height: 305px;
+	width: 319px;
+	height: 308px;
 	background: #ffffff;
 	z-index: 10;	
 }
 
 .address-studio .button {
 	width: 220px;
-	text-align: center;
-	margin-left: 50px;
+	margin-left: 51px;
 }
 
 .address-studio h2 {
@@ -722,29 +730,32 @@ img {
 	line-height: 30px;
 	font-weight: bold;
 	color: #000000;
-	;
+	padding-left: 51px;
 }
 
 .address-studio p {
 	margin: 0;
 	margin-bottom: 38px;
 	line-height: 18px;
-	font-weight: bold;
+	font-weight: 400;
 	color: #666666;
+	padding-left: 51px;
 }
 
 .write-to-us {
 	position: relative;
-	display: block;
 	background-color: #ffffff;
 	width: 960px;
 	height: 590px;
 	bottom: 770px;
 	box-shadow: 0 10px 80px rgba(0.0,0.0,0.0,0.7);
-	z-index: 2;
+	z-index: 15;
 	display: none;
 }
 
+.modal-show {
+  display: block;
+}
 
 .write-to-us h2 {
 	font-size: 45px;
@@ -1030,6 +1041,7 @@ img {
 	height: 25px;
 	margin-right: 13px;
 }
+
 .grid ul {
 	display: flex;
 	padding: 0;
@@ -1050,16 +1062,16 @@ img {
 	margin-top: 10px;
 }
 
-.filters input+label {
+.filter-option input+label {
 	color: #b8b8b8;
 }
 
-.filters input:hover+label,
-.filters input:focus+label {
+.filter-option input:hover+label,
+.filter-option input:focus+label {
 	color: #4d4d4d;
 }
 
-.filters input:disabled+label {
+.filter-option input:disabled+label {
 	color: #ededed;
 }
 
