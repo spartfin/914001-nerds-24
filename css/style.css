@@ -829,6 +829,15 @@ img {
 	border-color: #e74246;
 }
 
+.write-to-us input,
+.write-to-us textarea {
+padding-left: 15px;
+}
+
+.write-to-us textarea {
+	padding-top: 14px;
+}
+
 .modal-close {
   position: absolute;
 	top: 78px;
@@ -1030,17 +1039,79 @@ img {
 	margin-top: 60px;
 }
 
-.filter-option {
-	display: flex;
-	padding-top: 12px;
-	align-items: center;
+.grid legend,
+.features legend {
+	margin-bottom: 25px;
 }
 
-.filter-option input {
+.filter-option {
+	margin-bottom: 25px;
+	padding-left: 38px;
+}
+
+.filter-option label {
+	position: relative;
+	display: block;
+	cursor: pointer;
+	user-select: none;
+	color: #a6a6a6;
+}
+
+.filter-input:hover + label,
+.filter-input:focus + label {
+  color: #4d4d4d;
+}
+
+.filter-input-radio + label::before {
+	content: "";
+	position: absolute;
 	width: 25px;
 	height: 25px;
-	margin-right: 13px;
+	background-image: url("../img/radio-off.svg");
+	background-repeat: no-repeat;
+  background-position: 0 0;
+	left: -38px;
+	top: -4px;
+	opacity: 0.4;
 }
+
+.filter-input-radio:checked + label::after {
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-image: url("../img/radio-on.svg");
+	background-repeat: no-repeat;
+  background-position: 0 0;
+	left: -38px;
+	top: -4px;
+}
+
+.filter-input-checkbox + label::before {
+  content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-image: url("../img/checkbox-off.svg");
+	background-repeat: no-repeat;
+  background-position: 0 0;
+	left: -38px;
+	top: -4px;
+	opacity: 0.4;
+}
+
+.filter-input-checkbox:checked + label::after {
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-image: url("../img/checkbox-on.svg");
+	background-repeat: no-repeat;
+  background-position: 0 0;
+	left: -38px;
+	top: -4px;
+}
+
 
 .grid ul {
 	display: flex;
@@ -1060,19 +1131,6 @@ img {
 	margin: 0;
 	padding: 0;
 	margin-top: 10px;
-}
-
-.filter-option input+label {
-	color: #b8b8b8;
-}
-
-.filter-option input:hover+label,
-.filter-option input:focus+label {
-	color: #4d4d4d;
-}
-
-.filter-option input:disabled+label {
-	color: #ededed;
 }
 
 .filter-button {
