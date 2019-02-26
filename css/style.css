@@ -817,11 +817,13 @@ img {
 	border-color: #d7dcde;
 }
 
-.write-to-us-form input:hover {
+.write-to-us-form input:hover,
+.write-to-us-form textarea:hover {
 	border-color: #b4b9bb;
 }
 
-.write-to-us-form input:focus {
+.write-to-us-form input:focus,
+.write-to-us-form textarea:focus {
 	border-color: #000000;
 	color: #444444
 }
