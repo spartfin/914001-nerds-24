@@ -823,6 +823,7 @@ img {
 
 .write-to-us-form input:focus {
 	border-color: #000000;
+	color: #444444
 }
 
 .write-to-us-form input:invalid {
@@ -1057,8 +1058,7 @@ padding-left: 15px;
 	color: #a6a6a6;
 }
 
-.filter-input:hover + label,
-.filter-input:focus + label {
+.filter-input:hover + label {
   color: #4d4d4d;
 }
 
