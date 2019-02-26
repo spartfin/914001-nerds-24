@@ -1055,11 +1055,7 @@ padding-left: 15px;
 	display: block;
 	cursor: pointer;
 	user-select: none;
-	color: #a6a6a6;
-}
-
-.filter-input:hover + label {
-  color: #4d4d4d;
+	color: #283136;
 }
 
 .filter-input-radio + label::before {
@@ -1075,6 +1071,10 @@ padding-left: 15px;
 	opacity: 0.4;
 }
 
+.filter-input-radio + label::before:hover {
+	opacity: 1;
+}
+
 .filter-input-radio:checked + label::after {
 	content: "";
 	position: absolute;
@@ -1085,6 +1085,7 @@ padding-left: 15px;
   background-position: 0 0;
 	left: -38px;
 	top: -4px;
+	opacity: 0.4;
 }
 
 .filter-input-checkbox + label::before {
@@ -1110,8 +1111,8 @@ padding-left: 15px;
   background-position: 0 0;
 	left: -38px;
 	top: -4px;
+	opacity: 0.4;
 }
-
 
 .grid ul {
 	display: flex;
