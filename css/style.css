@@ -1060,6 +1060,14 @@ padding-left: 15px;
 	color: #283136;
 }
 
+.filter-option label:disabled {
+	position: relative;
+	display: block;
+	cursor: pointer;
+	user-select: none;
+	color: #ededed;
+}
+
 .filter-input-radio + label::before {
 	content: "";
 	position: absolute;
@@ -1073,11 +1081,7 @@ padding-left: 15px;
 	opacity: 0.4;
 }
 
-.filter-input-radio + label::before:hover {
-	opacity: 1;
-}
-
-.filter-input-radio:checked + label::after {
+.filter-input-radio:checked + label::before {
 	content: "";
 	position: absolute;
 	width: 25px;
@@ -1088,6 +1092,19 @@ padding-left: 15px;
 	left: -38px;
 	top: -4px;
 	opacity: 0.4;
+}
+
+.filter-input-radio:disabled + label::before {
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-image: url("../img/radio-on.svg");
+	background-repeat: no-repeat;
+  background-position: 0 0;
+	left: -38px;
+	top: -4px;
+	opacity: 0.1;
 }
 
 .filter-input-checkbox + label::before {
@@ -1103,7 +1120,7 @@ padding-left: 15px;
 	opacity: 0.4;
 }
 
-.filter-input-checkbox:checked + label::after {
+.filter-input-checkbox:checked + label::before {
 	content: "";
 	position: absolute;
 	width: 25px;
@@ -1114,6 +1131,23 @@ padding-left: 15px;
 	left: -38px;
 	top: -4px;
 	opacity: 0.4;
+}
+
+.filter-input-checkbox:disabled + label::before {
+	content: "";
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	background-image: url("../img/checkbox-on.svg");
+	background-repeat: no-repeat;
+  background-position: 0 0;
+	left: -38px;
+	top: -4px;
+	opacity: 0.1;
+}
+
+.filter-input:hover + label::before {
+opacity: 1;
 }
 
 .grid ul {
