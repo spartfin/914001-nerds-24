@@ -198,7 +198,7 @@ img {
 }
 
 .slider-controls i {
-  vertical-align: baseline;
+  vertical-align: middle;
   position: relative;
   display: inline-block;
   width: 18px;
@@ -478,7 +478,7 @@ img {
 
 .arrows {
   display: inline-block;
-  vertical-align: baseline;
+  vertical-align: middle;
   width: 11px;
   height: 10px;
   opacity: 0.2;
@@ -504,7 +504,7 @@ img {
 
 .arrow-current {
   display: inline-block;
-  vertical-align: baseline;
+  vertical-align: middle;
   width: 11px;
   height: 10px;
 }
@@ -1047,7 +1047,7 @@ img {
 
 .price-controls label {
   display: inline-block;
-  vertical-align: baseline;
+  vertical-align: middle;
   width: 50%;
   font-size: 16px;
   text-transform: uppercase;
