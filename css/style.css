@@ -372,19 +372,42 @@ img {
   justify-content: space-around;
   align-items: center;
   margin: 0;
-	padding: 45px 0;
+  padding: 45px 0;
   border-top: 2px solid #eeeeee;
   border-bottom: 2px solid #eeeeee;
 }
 
 .links-list li {
-	border-right: 2px solid #eeeeee;
-	padding-right: 50px;
+  position: relative;
 }
 
-.links-list li:nth-child(4) {
-	border: none;
+.links-list li::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 52px;
+  background: #eeeeee;
 }
+
+.links-list li:nth-child(1)::after {
+  display: none;
+}
+
+.links-list li:nth-child(2)::after {
+  left: -45px;
+  top: 20px;
+}
+
+.links-list li:nth-child(3)::after {
+  left: -58px;
+  top: 0px;
+}
+
+.links-list li:nth-child(4)::after {
+  left: -56px;
+  top: 15px;
+}
+
 
 .write-to-us h2 {
   margin: 0;
@@ -625,6 +648,7 @@ img {
   border-radius: 3px;
   border: none;
 }
+
 .button:hover,
 .button:focus {
   background-color: #e74246;
@@ -639,6 +663,7 @@ img {
 .services .button {
   width: 162px;
 }
+
 .services h3 {
   font-size: 24px;
   line-height: 30px;
@@ -828,6 +853,7 @@ img {
   width: 345px;
   height: 50px;
 }
+
 .write-to-us textarea {
   width: 745px;
   height: 118px;
@@ -1100,7 +1126,7 @@ img {
   color: #283136;
 }
 
-.filter-input-radio + label::before {
+.filter-input-radio+label::before {
   content: "";
   position: absolute;
   width: 25px;
@@ -1113,7 +1139,7 @@ img {
   opacity: 0.4;
 }
 
-.filter-input-radio:checked + label::before {
+.filter-input-radio:checked+label::before {
   content: "";
   position: absolute;
   width: 25px;
@@ -1126,7 +1152,7 @@ img {
   opacity: 0.4;
 }
 
-.filter-input-checkbox + label::before {
+.filter-input-checkbox+label::before {
   content: "";
   position: absolute;
   width: 25px;
@@ -1139,7 +1165,7 @@ img {
   opacity: 0.4;
 }
 
-.filter-input-checkbox:checked + label::before {
+.filter-input-checkbox:checked+label::before {
   content: "";
   position: absolute;
   width: 25px;
@@ -1152,18 +1178,18 @@ img {
   opacity: 0.4;
 }
 
-.filter-input-radio:checked:disabled + label::before,
-.filter-input-checkbox:checked:disabled + label::before {
+.filter-input-radio:checked:disabled+label::before,
+.filter-input-checkbox:checked:disabled+label::before {
   opacity: 0.1;
 }
 
-.filter-input-radio:disabled + label,
-.filter-input-checkbox:disabled + label {
+.filter-input-radio:disabled+label,
+.filter-input-checkbox:disabled+label {
   color: rgba(40, 49, 54, 0.1);
 }
 
-.filter-input:hover + label::before,
-.filter-input:focus + label::before {
+.filter-input:hover+label::before,
+.filter-input:focus+label::before {
   opacity: 1;
 }
 
