@@ -258,7 +258,7 @@ img
     text-align: center;
 }
 
-.slider-controls i
+.slider-controls a
 {
     position: relative;
 
@@ -274,7 +274,7 @@ img
     border-radius: 50%;
 }
 
-.slider-controls i::after
+.slider-controls a::after
 {
     position: absolute;
     z-index: 1;
