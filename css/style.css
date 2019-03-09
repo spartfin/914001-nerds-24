@@ -353,7 +353,7 @@ img
 .websites,
 .applications
 {
-    padding-right: 100px;
+    margin-right: 100px;
 }
 
 .websites h3::before
@@ -592,7 +592,7 @@ img
 {
     width: 260px;
     padding-top: 70px;
-    padding-right: 140px;
+    margin-right: 140px;
     padding-bottom: 70px;
 }
 
@@ -1368,17 +1368,18 @@ img
     display: -ms-flexbox;
     display: flex;
 
-    width: 265px;
+    width: 260px;
     margin: 0;
     padding: 0;
     padding-right: 140px;
 
     text-align: center;
-
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+}
+
+.social-icons li {
+    padding-right: 10px;
 }
 
 .social-button
