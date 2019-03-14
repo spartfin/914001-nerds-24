@@ -591,8 +591,8 @@ img
 .social-icons
 {
     width: 260px;
-    padding-top: 70px;
     margin-right: 140px;
+    padding-top: 70px;
     padding-bottom: 70px;
 }
 
@@ -766,6 +766,7 @@ img
 {
     position: relative;
 
+    width: 360px;
     margin-bottom: 33px;
     padding-top: 40px;
 }
@@ -801,6 +802,8 @@ img
 
 .template-description p
 {
+    overflow: overlay;
+
     padding-right: 60px;
     padding-left: 60px;
 }
@@ -808,9 +811,13 @@ img
 .template-description
 {
     position: absolute;
-    top: 385px;
+    bottom: 0;
 
     visibility: hidden;
+
+    max-height: 100%;
+    padding-top: 33px;
+    padding-bottom: 43px;
 }
 
 .template-item:hover::before
@@ -1374,11 +1381,13 @@ img
     padding-right: 140px;
 
     text-align: center;
+
     -ms-flex-pack: distribute;
     justify-content: space-around;
 }
 
-.social-icons li {
+.social-icons li
+{
     padding-right: 10px;
 }
 
@@ -1823,9 +1832,6 @@ img
     display: -ms-flexbox;
     display: flex;
         flex-direction: column;
-
-    width: 360px;
-    height: 231px;
 
     text-align: center;
 
