@@ -266,8 +266,8 @@ img
 
     position: absolute;
     z-index: 100;
-    bottom: 104px;
-    left: 50%;
+    bottom: 100px;
+    left: 51%;
 
     width: 160px;
     height: 18px;
@@ -286,30 +286,16 @@ img
 
     width: 18px;
     height: 18px;
-    padding: 8px;
+    margin: 0;
+    margin-right: 17px;
+    padding: 0;
 
     cursor: pointer;
     vertical-align: middle;
 
     border: none;
     border-radius: 50%;
-    background-color: transparent;
-}
-
-.slider-controls button::after
-{
-    position: absolute;
-    z-index: 1;
-    top: 8px;
-    left: 8px;
-
-    width: 18px;
-    height: 18px;
-
-    content: '';
-
-    border-radius: 50%;
-    background: #fff;
+    background-color: white;
 }
 
 .services-navigations
@@ -677,7 +663,7 @@ img
 .templates h3
 {
     margin: 0;
-    padding-right: 245px;
+    padding-right: 263px;
 }
 
 .templates-filter
@@ -713,6 +699,8 @@ img
     line-height: 18px;
 
     margin-right: 48px;
+
+    text-transform: uppercase;
 }
 
 .filter-arrows
@@ -825,8 +813,8 @@ img
 {
     overflow: overlay;
 
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-right: 77px;
+    padding-left: 80px;
 }
 
 .template-description
@@ -838,7 +826,7 @@ img
 
     max-height: 100%;
     padding-top: 33px;
-    padding-bottom: 43px;
+    padding-bottom: 49px;
 }
 
 .template-item:hover::before
@@ -854,7 +842,7 @@ img
 .template-description h3
 {
     padding: 0;
-    padding-bottom: 25px;
+    padding-bottom: 14px;
 }
 
 .pagination-list
@@ -1510,9 +1498,8 @@ img
 {
     position: relative;
 
-    height: 41px;
+    height: 80px;
     margin-bottom: 19px;
-    padding-top: 39px;
     padding-right: 20px;
     padding-left: 20px;
 
@@ -1522,6 +1509,11 @@ img
 
 .range-controls .scale
 {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+
+    width: 220px;
     height: 2px;
 
     background: #d7dcde;
@@ -1877,6 +1869,7 @@ img
 .templates-list .button
 {
     width: 200px;
+    margin-top: 24px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -1894,12 +1887,7 @@ img
 
 .filter li
 {
-    padding-right: 38px;
-}
-
-.templates-list p
-{
-    padding-bottom: 30px;
+    padding-right: 34px;
 }
 
 .pagination-list
@@ -1919,6 +1907,8 @@ img
     margin-right: 10px;
 
     list-style: none;
+
+    text-transform: uppercase;
 
     color: #000;
 }
