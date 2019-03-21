@@ -609,8 +609,8 @@ img
 .social-icons
 {
     width: 260px;
-    margin-right: 140px;
-    padding-top: 65px;
+    margin-right: 142px;
+    padding-top: 60px;
     padding-bottom: 68px;
 }
 
@@ -1145,11 +1145,11 @@ img
 {
     position: relative;
     z-index: 15;
-    bottom: 770px;
+    bottom: 775px;
 
     display: none;
 
-    width: 960px;
+    width: 923px;
     height: 590px;
 
     background-color: #fff;
@@ -1225,9 +1225,9 @@ img
     font-weight: 500;
     line-height: 45px;
 
-    margin-bottom: 48px;
-    margin-left: 100px;
-    padding-top: 70px;
+    margin-bottom: 40px;
+    margin-left: 80px;
+    padding-top: 67px;
 
     color: #000;
 }
@@ -1240,7 +1240,7 @@ img
 
     width: 780px;
     height: 360px;
-    margin-left: 100px;
+    margin-left: 81px;
 
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1265,8 +1265,8 @@ img
 
 .write-to-us-item:nth-child(3)
 {
-    padding-top: 33px;
-    padding-bottom: 47px;
+    padding-top: 31px;
+    padding-bottom: 43px;
 }
 
 .write-to-us label
@@ -1274,21 +1274,21 @@ img
     font-weight: bold;
     line-height: 18px;
 
-    margin-bottom: 10px;
+    margin-bottom: 9px;
 
     color: #000;
 }
 
 .write-to-us input
 {
-    width: 345px;
-    height: 50px;
+    width: 343px;
+    height: 43px;
 }
 
 .write-to-us textarea
 {
-    width: 745px;
-    height: 118px;
+    width: 743px;
+    height: 99px;
 }
 
 .write-to-us-form input,
@@ -1326,12 +1326,20 @@ img
 .write-to-us input,
 .write-to-us textarea
 {
-    padding-left: 15px;
+    padding-left: 13px;
 }
 
 .write-to-us textarea
 {
-    padding-top: 14px;
+    padding-top: 9px;
+}
+
+.write-to-us button
+{
+    padding: 0;
+    margin: 0;
+    width: 260px;
+    height: 50px;
 }
 
 .modal-close
@@ -1355,11 +1363,11 @@ img
 .modal-close::after
 {
     position: absolute;
-    top: 10px;
-    left: 2px;
+    top: 7px;
+    right: 2px;
 
-    width: 19px;
-    height: 3px;
+    width: 24px;
+    height: 4px;
 
     content: '';
 
@@ -1417,9 +1425,6 @@ img
     padding-right: 140px;
 
     text-align: center;
-
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
 }
 
 .social-icons li
@@ -1844,30 +1849,34 @@ img
 
 .filter-link
 {
-    color: #cacaca;
+    color: #000000;
+    opacity: 0.3;
 }
 
 .filter-link:hover,
 .filter-link:focus
 {
-    color: #8d8d8d;
+    color: #000000;
+    opacity: 0.6;
 }
 
 .filter-link:active
 {
-    color: #000;
+    color: #000000;
+    opacity: 1;
+
 }
 
 .filter-link-current
 {
-    color: #000;
+    color: #000000;
 }
 
 .filter-link-current:hover,
 .filter-link-current:focus,
 .filter-link-current:active
 {
-    color: #000;
+    color: #000000;
 }
 
 .templates-list
