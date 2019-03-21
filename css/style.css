@@ -242,19 +242,18 @@ img
 
 .slide b
 {
+    display: flex;
     font-size: 55px;
     font-weight: 500;
     line-height: 55px;
 
-    max-width: 600px;
-    margin: 0;
-
+    max-width: 520px;
     color: #000;
 }
 
 .slide p
 {
-    max-width: 430px;
+    max-width: 420px;
     margin: 0;
     margin-top: 27px;
     margin-bottom: 38px;
@@ -490,6 +489,11 @@ img
     font-size: 60%;
 
     top: -15px;
+}
+
+.trumps td
+{
+    line-height: 18px;
 }
 
 .links
@@ -811,6 +815,7 @@ img
 
 .template-description p
 {
+    color: #666666;
     overflow: overlay;
 
     padding-right: 77px;
@@ -1048,6 +1053,13 @@ img
     border: none;
 }
 
+.map-wrapper
+{
+    margin: 0 auto;
+    width: 1200px; 
+    height: 416px;
+}
+
 .address img
 {
     width: 100%;
@@ -1106,6 +1118,7 @@ img
 
     margin: 0;
     padding-left: 51px;
+    padding-right: 55px;
 
     color: #666;
 }
@@ -1489,7 +1502,7 @@ img
 {
     font-size: 18px;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 30px;
 
     text-transform: uppercase;
 }
@@ -1564,6 +1577,7 @@ img
 .price-controls label
 {
     font-size: 16px;
+    line-height: 22px;
 
     display: inline-block;
 
@@ -1577,6 +1591,7 @@ img
 {
     font-family: 'Roboto', 'Arial', sans-serif;
     font-size: 16px;
+    line-height: 22px;
 
     width: 60px;
     margin-left: 10px;
@@ -1616,7 +1631,7 @@ img
 {
     font-size: 18px;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 30px;
 
     margin-bottom: 8px;
 
@@ -1789,7 +1804,7 @@ img
 {
     font-size: 18px;
     font-weight: bold;
-    line-height: 18px;
+    line-height: 30px;
 
     color: #000;
 }
