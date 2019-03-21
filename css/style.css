@@ -242,12 +242,18 @@ img
 
 .slide b
 {
-    display: flex;
     font-size: 55px;
     font-weight: 500;
     line-height: 55px;
 
+    display: -webkit-box;
+
+    display: -ms-flexbox;
+
+    display: flex;
+
     max-width: 520px;
+
     color: #000;
 }
 
@@ -257,6 +263,7 @@ img
     margin: 0;
     margin-top: 5px;
     margin-bottom: 37px;
+
     white-space: pre-line;
 }
 
@@ -499,6 +506,7 @@ img
 .trumps td
 {
     line-height: 18px;
+
     padding-top: 2px;
     padding-left: 1px;
 }
@@ -683,8 +691,8 @@ img
     display: -ms-flexbox;
     display: flex;
 
-    margin-bottom: 32px;
     margin-top: 2px;
+    margin-bottom: 32px;
 
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -698,8 +706,8 @@ img
     display: flex;
 
     margin: 0;
-    padding: 0;
     margin-top: 2px;
+    padding: 0;
 
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -822,14 +830,18 @@ img
 
 .template-description p
 {
-    color: #666666;
     line-height: 18px;
+
     overflow: overlay;
+
     max-width: 240px;
-    margin-left: 65px;
     margin-right: 65px;
-    white-space: pre-line;
+    margin-left: 65px;
     padding-bottom: 29px;
+
+    white-space: pre-line;
+
+    color: #666;
 }
 
 .template-description
@@ -1065,9 +1077,9 @@ img
 
 .map-wrapper
 {
-    margin: 0 auto;
-    width: 1200px; 
+    width: 1200px;
     height: 416px;
+    margin: 0 auto;
 }
 
 .address img
@@ -1085,7 +1097,7 @@ img
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+        flex-direction: column;
 
     width: 319px;
     height: 308px;
@@ -1111,9 +1123,9 @@ img
     font-size: 18px;
     font-weight: bold;
     line-height: 30px;
-    padding-top: 52px;
 
     margin: 0;
+    padding-top: 52px;
     padding-left: 50px;
 
     color: #000;
@@ -1125,8 +1137,8 @@ img
     line-height: 18px;
 
     margin: 0;
-    padding-left: 51px;
     padding-right: 55px;
+    padding-left: 51px;
 
     color: #666;
 }
@@ -1337,10 +1349,10 @@ img
 
 .write-to-us button
 {
-    padding: 0;
-    margin: 0;
     width: 260px;
     height: 50px;
+    margin: 0;
+    padding: 0;
 }
 
 .modal-close
@@ -1522,6 +1534,7 @@ img
     font-size: 18px;
     font-weight: 700;
     line-height: 30px;
+
     text-transform: uppercase;
 }
 
@@ -1850,34 +1863,33 @@ img
 
 .filter-link
 {
-    color: #000000;
-    opacity: 0.3;
+    opacity: .3;
+    color: #000;
 }
 
 .filter-link:hover,
 .filter-link:focus
 {
-    color: #000000;
-    opacity: 0.6;
+    opacity: .6;
+    color: #000;
 }
 
 .filter-link:active
 {
-    color: #000000;
     opacity: 1;
-
+    color: #000;
 }
 
 .filter-link-current
 {
-    color: #000000;
+    color: #000;
 }
 
 .filter-link-current:hover,
 .filter-link-current:focus,
 .filter-link-current:active
 {
-    color: #000000;
+    color: #000;
 }
 
 .templates-list
