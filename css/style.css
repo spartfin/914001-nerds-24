@@ -218,7 +218,7 @@ img
 
     content: '';
 
-    border: 2px solid #c1c1c1;
+    border: 3px solid #c1c1c1;
     border-radius: 50%;
     background-color: inherit;
 }
@@ -273,7 +273,7 @@ img
 
     position: absolute;
     z-index: 100;
-    bottom: 102px;
+    bottom: 103px;
     left: 51%;
 
     width: 160px;
