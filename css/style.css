@@ -829,6 +829,7 @@ img
     margin-left: 65px;
     margin-right: 65px;
     white-space: pre-line;
+    padding-bottom: 29px;
 }
 
 .template-description
@@ -856,7 +857,7 @@ img
 .template-description h3
 {
     padding: 0;
-    padding-bottom: 15px;
+    padding-bottom: 14px;
 }
 
 .pagination-list
@@ -1906,7 +1907,6 @@ img
 .templates-list .button
 {
     width: 200px;
-    margin-top: 29px;
     margin-right: auto;
     margin-left: auto;
 }
