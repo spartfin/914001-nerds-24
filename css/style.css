@@ -907,7 +907,8 @@ img
 .site-navigation a:active,
 .user-navigation a:active
 {
-    color: #bdbdbd;
+    color: #000000;
+    opacity: 0.3;
 }
 
 .main-header-logo:hover
@@ -922,6 +923,7 @@ img
 
 .button
 {
+    outline: none;
     font-weight: 500;
     line-height: 18px;
 
@@ -1291,12 +1293,14 @@ img
 
 .write-to-us input
 {
+    outline:none;
     width: 343px;
     height: 43px;
 }
 
 .write-to-us textarea
 {
+    outline:none;
     width: 743px;
     height: 99px;
 }
@@ -1346,6 +1350,7 @@ img
 
 .write-to-us button
 {
+    outline: none;
     width: 260px;
     height: 50px;
     margin: 0;
@@ -1381,7 +1386,8 @@ img
 
     content: '';
 
-    background-color: #fecccd;
+    background-color: #f30a0e;
+    opacity: 0.3;
 }
 
 .modal-close::before
@@ -1404,12 +1410,14 @@ img
 .modal-close:focus::after
 {
     background-color: #f30a0e;
+    opacity: 1;
 }
 
 .modal-close:active::before,
 .modal-close:active::after
 {
-    background-color: #fee;
+    background-color: #f30a0e;
+    opacity: 0.1;
 }
 
 .social-icons a:hover,
