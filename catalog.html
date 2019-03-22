@@ -40,8 +40,12 @@
                 <div class="scale">
                   <div class="bar" style="margin-left: 20%; width: 30%"></div>
                 </div>
-                <div class="toggle toggle-min"></div>
-                <div class="toggle toggle-max"></div>
+                <div class="toggle toggle-min">
+                  <span class="visually-hidden">Первый ползунок</span>
+                </div>
+                <div class="toggle toggle-max">
+                  <span class="visually-hidden">Второй ползунок</span>
+                </div>
               </div>
               <div class="price-controls">
                 <label class="min-price">от <input name="min-price" type="text" value="0"></label>
@@ -79,7 +83,7 @@
               </li>
               <li class="filter-option">
                 <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantage-unit"
-                  id="filter-advantage-unity" disabled>
+                  id="filter-advantage-unity">
                 <label for="filter-advantage-unity">Блок преимуществ</label>
               </li>
               <li class="filter-option">
@@ -110,8 +114,14 @@
             <li><a class="filter-link" href="#">по названию</a></li>
           </ul>
           <ul class="filter-arrows">
-            <li><a class="arrow-down arrow-current" href="#"></a></li>
-            <li><a class=" arrows arrow-up" href="#"></a></li>
+            <li>
+              <a class="arrow-down arrow-current" href="#"></a>
+              <span class="visually-hidden">Стрела вниз</span>
+            </li>
+            <li>
+              <a class=" arrows arrow-up" href="#"></a>
+              <span class="visually-hidden">Стрела вверх</span>
+            </li>
           </ul>
         </div>
         <ul class="templates-list">
