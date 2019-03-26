@@ -218,9 +218,11 @@ img
             box-sizing: content-box;
     width: 4px;
     height: 4px;
-    margin: -5px;
 
     content: '';
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 
     border: 3px solid #c1c1c1;
     border-radius: 50%;
@@ -287,9 +289,7 @@ img
     height: 18px;
 
     -webkit-transform: translateX(-50%);
-
         -ms-transform: translateX(-50%);
-
             transform: translateX(-50%);
     text-align: center;
 }
