@@ -858,7 +858,7 @@ img
     position: absolute;
     bottom: 0;
 
-    visibility: hidden;
+    visibility: hidde;
     overflow: overlay;
 
     width: 100%;
@@ -1743,7 +1743,7 @@ img
     display: block;
 
     margin: 0;
-    margin-top: 58px;
+    margin-top: 56px;
     padding: 0;
 }
 
@@ -1904,7 +1904,7 @@ img
     line-height: 18px;
 
     width: 260px;
-    margin-top: 33px;
+    margin-top: 29px;
 
     color: #000;
     background-color: #eee;
