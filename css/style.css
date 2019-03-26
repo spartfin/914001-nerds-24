@@ -1447,6 +1447,11 @@ img
     background-color: transparent;
 }
 
+.write-to-us--inner
+{
+    bottom: 770px;
+}
+
 .modal-close::before,
 .modal-close::after
 {
