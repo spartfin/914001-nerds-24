@@ -269,6 +269,11 @@ img
     white-space: pre-line;
 }
 
+.slider-controls button:last-of-type
+{
+    margin-right: 0;
+}
+
 .slider-controls
 {
     font-size: 0;
@@ -277,10 +282,15 @@ img
     z-index: 100;
     bottom: 98px;
     left: 528px;
+    left: 50%;
 
-    width: 160px;
     height: 18px;
 
+    -webkit-transform: translateX(-50%);
+
+        -ms-transform: translateX(-50%);
+
+            transform: translateX(-50%);
     text-align: center;
 }
 
@@ -1100,22 +1110,11 @@ img
     z-index: 10;
     top: 53px;
 
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-        flex-direction: column;
-
     width: 319px;
     height: 308px;
     margin: 0;
 
     background: #fff;
-
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
 }
 
 .address-studio .button
