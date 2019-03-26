@@ -231,7 +231,7 @@ img
 {
     position: relative;
 
-    margin-bottom: 81px;
+    margin-bottom: 83px;
 
     background-color: #eee;
 }
@@ -1158,7 +1158,7 @@ img
 .address-studio p:nth-child(3)
 {
     padding-top: 18px;
-    padding-bottom: 35px;
+    padding-bottom: 38px;
 }
 
 .write-to-us
@@ -1349,7 +1349,7 @@ img
 
 .write-to-us-item:nth-child(3)
 {
-    padding-top: 31px;
+    padding-top: 27px;
     padding-bottom: 43px;
 }
 
@@ -1743,7 +1743,7 @@ img
     display: block;
 
     margin: 0;
-    margin-top: 51px;
+    margin-top: 58px;
     padding: 0;
 }
 
@@ -1904,7 +1904,7 @@ img
     line-height: 18px;
 
     width: 260px;
-    margin-top: 27px;
+    margin-top: 33px;
 
     color: #000;
     background-color: #eee;
@@ -2035,7 +2035,7 @@ img
     display: -ms-flexbox;
     display: flex;
 
-    margin-top: 27px;
+    margin-top: 32px;
 }
 
 .pagination-list a
