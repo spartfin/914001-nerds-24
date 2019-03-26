@@ -858,7 +858,7 @@ img
     position: absolute;
     bottom: 0;
 
-    visibility: hidde;
+    visibility: hidden;
     overflow: overlay;
 
     width: 100%;
