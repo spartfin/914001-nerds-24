@@ -181,26 +181,22 @@ img
     padding: 78px 0 80px 0;
 }
 
-.slide:nth-child(1)
+.slider-list_design
 {
     display: block;
-}
-
-.slide:nth-child(1)
-{
     background-image: url('../img/slide-1.png');
     background-repeat: no-repeat;
     background-position: 93% 18px;
 }
 
-.slide:nth-child(2)
+.slider-list_formulas
 {
     background-image: url('../img/slide-2.png');
     background-repeat: no-repeat;
     background-position: 100% 0;
 }
 
-.slide:nth-child(3)
+.slider-list_work
 {
     background-image: url('../img/slide-3.png');
     background-repeat: no-repeat;

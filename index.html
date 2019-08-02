@@ -7,7 +7,7 @@
   <title>HTML Academy: Нёрдс</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
-  <link href="css/minstyle.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -33,12 +33,12 @@
       <div class="container-box">
         <h2 class="visually-hidden">Наши преимущества</h2>
         <div class="slider-controls">
-          <button class="active">Первый слайд</button>
-          <button>Второй слайд</button>
-          <button>Третий слайд</button>
+          <button class="slider-controls_design active">Первый слайд</button>
+          <button class="slider-controls_formulas">Второй слайд</button>
+          <button class="slider-controls_work">Третий слайд</button>
         </div>
         <div class="slider-list">
-          <div class="slide">
+          <div class="slide slider-list_design">
             <b>Долго, дорого, скрупулезно.</b>
             <p>
               Математически выверенный дизайн
@@ -46,7 +46,7 @@
             </p>
             <a class="button" href="#">Узнать больше</a>
           </div>
-          <div class="slide">
+          <div class="slide slider-list_formulas">
             <b>Любим математику как никто другой</b>
             <p>
               Никакого креатива, только математические формулы
@@ -54,7 +54,7 @@
             </p>
             <a class="button" href="#">Узнать больше</a>
           </div>
-          <div class="slide">
+          <div class="slide slider-list_work">
             <b>Только ночь, только хардкор</b>
             <p>
               Работать днем, как все? Мы против этого.
@@ -161,7 +161,7 @@
       <iframe src="https://yandex.ru/map-widget/v1/-/CCQWQT3e"></iframe>
       <div class="map-wrapper">
         <img src="img/address-map.jpg" width="1200" height="420"
-          alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+          alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург" />
       </div>
     </section>
     <div class="container-box footer-social">
@@ -214,7 +214,8 @@
     </form>
     <button class="modal-close" type="button">Закрыть</button>
   </section>
-  <script src="js/minscript.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
